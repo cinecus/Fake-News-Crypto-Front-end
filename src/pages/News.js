@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react'
 import { useGlobalContext } from '../context'
 import Loading from '../components/Loading';
 import ShowMoreButton from '../components/ShowMoreButton';
-import ContentCard from '../components/ContentCard';
+import NewsCard from '../components/NewsCard';
 
 const News = () => {
-    const { news, paginateFn, page: { news_page } } = useGlobalContext()
+    const { news, page: { news_page } } = useGlobalContext()
     return (
         <>
             <section className="hero has-background-white-ter is-fullheight  has-background-white-ter py-6 mt-6">
@@ -22,7 +22,7 @@ const News = () => {
                                 {
                                     news.slice(0 + j * 3, 3 + j * 3).map((news_item, i) => {
                                         return <div className="column is-one-third" key={i}>
-                                            <ContentCard {...news_item} />
+                                            <NewsCard {...news_item} />
                                         </div>
                                     })
                                 }

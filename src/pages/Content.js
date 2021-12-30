@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import NewsCard from '../components/NewsCard'
 import { useGlobalContext } from '../context'
 import Loading from '../components/Loading';
 import ShowMoreButton from '../components/ShowMoreButton';
+import ContentCard from '../components/ContentCard';
 
 const Content = () => {
     const { contents, paginateFn, page: { content_page } } = useGlobalContext()
@@ -22,7 +22,7 @@ const Content = () => {
                                 {
                                     contents.slice(0 + j * 3, 3 + j * 3).map((content_item, i) => {
                                         return <div className="column is-one-third" key={i}>
-                                            <NewsCard {...content_item} />
+                                            <ContentCard {...content_item} />
                                         </div>
                                     })
                                 }

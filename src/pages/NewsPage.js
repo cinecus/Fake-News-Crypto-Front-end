@@ -13,8 +13,8 @@ const NewsPage = () => {
     useEffect(() => {
         setLoading(true)
         const getNewsPage = async () => {
-            const { id, title, category, date, image, content, creater, tags } = await news.find((el) => el.id == news_id)
-            await setNewsItem({ id, title, category, date, image, content, creater, tags })
+            const { id, title, category, date, news_image, content, creater, tags } = await news.find((el) => el.id == news_id)
+            await setNewsItem({ id, title, category, date, news_image, content, creater, tags })
         }
         getNewsPage()
         setLoading(false)
@@ -41,7 +41,7 @@ const NewsPage = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <img class="image is-fullwidth img-band" src={news_item.image} alt="Placeholder image" />
+                                    <img class="image is-fullwidth img-band" src={news_item.news_image} alt="Placeholder image" />
                                 </div>
                                 <div class="content mt-5">
                                     {news_item.content}

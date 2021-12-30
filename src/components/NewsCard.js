@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-const NewsCard = ({ id, title, category, date, image, content, creater }) => {
+const NewsCard = ({ id, title, category, date, news_image, content, creater }) => {
     return (<>
         <div className="card  container">
             <div className='tags-container'>
@@ -8,7 +8,7 @@ const NewsCard = ({ id, title, category, date, image, content, creater }) => {
             </div>
             <div className="card-image">
                 <figure className="image is-500x500" >
-                    <Link to={`/news/${id}`}><img src={image} alt="Placeholder image" /></Link>
+                    <Link to={`/news/${id}`}><img src={news_image} alt="Placeholder image" /></Link>
                 </figure>
             </div>
             <div className="card-content is-fullheight">

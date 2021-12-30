@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const ContentCard = ({ id, title, category, date, image, content, creater }) => {
+const ContentCard = ({ id, title, category, date, content_image, content, creater }) => {
     return (<>
         <div className="card  container">
             <div className='tags-container'>
@@ -9,7 +9,7 @@ const ContentCard = ({ id, title, category, date, image, content, creater }) => 
             </div>
             <div className="card-image">
                 <figure className="image is-500x500" >
-                    <Link to={`/content/${id}`}><img src={image} alt="Placeholder image" /></Link>
+                    <Link to={`/content/${id}`}><img src={content_image} alt="Placeholder image" /></Link>
                 </figure>
             </div>
             <div className="card-content is-fullheight">

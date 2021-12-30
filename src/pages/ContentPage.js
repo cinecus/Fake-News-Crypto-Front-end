@@ -13,8 +13,8 @@ const ContentPage = () => {
     useEffect(() => {
         setLoading(true)
         const getContentPage = async () => {
-            const { id, title, category, date, image, content, creater, tags } = await contents.find((el) => el.id == content_id)
-            await setContentItem({ id, title, category, date, image, content, creater, tags })
+            const { id, title, category, date, content_image, content, creater, tags } = await contents.find((el) => el.id == content_id)
+            await setContentItem({ id, title, category, date, content_image, content, creater, tags })
         }
         getContentPage()
         setLoading(false)
@@ -41,7 +41,7 @@ const ContentPage = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <img class="image is-fullwidth img-band" src={content_item.image} alt="Placeholder image" />
+                                    <img class="image is-fullwidth img-band" src={content_item.content_image} alt="Placeholder image" />
                                 </div>
                                 <div class="content mt-5">
                                     {content_item.content}
