@@ -30,7 +30,7 @@ const ContentSection = () => {
                             )
                         })
                     }
-                    <ShowMoreButton type='news_section_page' />
+                    <ShowMoreButton type='content_section_page' />
                 </div>
             </section>
 
