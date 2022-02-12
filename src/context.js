@@ -1,18 +1,21 @@
 import React, { useState, useContext, useEffect } from 'react'
+import axios from 'axios'
+import env from "react-dotenv";
 import { useCallback } from 'react'
 import { data_news } from '../src/data/news'
-import { data_content } from '../src/data/content'
-
+import { data_article } from './data/article'
+import { url } from './utils/api'
 const AppContext = React.createContext()
 const AppProvider = ({ children }) => {
     const [news, setNews] = useState(data_news)
-    const [contents, setContent] = useState(data_content)
+    const [article, setArticle] = useState([])
+    const [loading, setLoading] = useState(false)
     const [isShow, setIsShow] = useState(false)
     const [page, setPage] = useState({
         news_section_page: 1,
         news_page: 2,
-        content_section_page: 1,
-        content_page: 2
+        article_section_page: 1,
+        article_page: 2
     })
     const [coin_price, setCoinPrice] = useState(null)
     const showMore = (type) => {
@@ -24,18 +27,37 @@ const AppProvider = ({ children }) => {
     const toggleShow = () => {
         return setIsShow(!isShow)
     }
-    const fetchCoinPrice = async () => {
+
+    const fetchAllArticle = () => {
+        setLoading(true)
         try {
-            const res = await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false")
-            const data = await res.json()
-            setCoinPrice(data)
+            const key = env.BYPASS_KEY
+            // console.log(key);
+            const config = {
+                method: 'get',
+                url: `${url}/article/getArticleTable`,
+                headers: { 'Authorization': key }
+            }
+            axios(config)
+                .then((res) => {
+                    setArticle(res.data.result)
+                    setLoading(false)
+                })
+                .catch((error) => {
+                    setLoading(false)
+                    console.log('error', error);
+                })
         } catch (error) {
-            alert("Fetch API Error")
+            setLoading(false)
+            console.log('error', error);
         }
     }
+    useEffect(() => {
+        fetchAllArticle()
+    }, [])
     return (
         <AppContext.Provider
-            value={{ news, contents, page, isShow, coin_price, setIsShow, showMore, paginateFn, toggleShow, fetchCoinPrice }}
+            value={{ news, article, page, isShow, coin_price, setIsShow, showMore, paginateFn, toggleShow }}
         >
             {children}
         </AppContext.Provider>
