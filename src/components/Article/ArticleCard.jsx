@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-
-const ContentCard = ({ id, title, category, date, content_image, content, creater }) => {
+import { Link, useNavigate } from 'react-router-dom';
+import moment from 'moment';
+const ArticleCard = ({ _id: id, name: title, category, created_date: date, image_cover_uri: content_image, content, creater }) => {
     return (<>
         <div className="card  container">
             <div className='tags-container'>
@@ -9,7 +9,7 @@ const ContentCard = ({ id, title, category, date, content_image, content, create
             </div>
             <div className="card-image">
                 <figure className="image is-500x500" >
-                    <Link to={`/content/${id}`}><img src={content_image} alt="Placeholder image" /></Link>
+                    <Link to={`/article/${id}`}><img src={content_image} alt="Placeholder image" style={{ 'height': '300px' }} /></Link>
                 </figure>
             </div>
             <div className="card-content is-fullheight">
@@ -19,7 +19,7 @@ const ContentCard = ({ id, title, category, date, content_image, content, create
                             <div className='subtitle'><strong>{title}</strong></div>
                         </div>
                         <div className='column pb-0 is-3 pl-0'>
-                            <div className='subtitle has-text-right'>{date}</div>
+                            <div className='subtitle has-text-right'>{moment(date).format('DD-MM-YY')}</div>
                         </div>
                     </div>
                     <div className='columns is-justify-content-space-between'>
@@ -29,19 +29,19 @@ const ContentCard = ({ id, title, category, date, content_image, content, create
                     </div>
                     <div className='columns is-justify-content-space-between'>
                         <div className='column'>
-                            <p>
-                                {content.substring(0, 80)}...
+                            <p dangerouslySetInnerHTML={{__html:content.substring(0, 80)}} style={{msTransition: 'all'}}>
+                            
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
             <footer className="card-footer">
-                <div className="card-footer-item"><Link to={`/content/${id}`}>Read more...</Link></ div>
+                <div className="card-footer-item"><Link to={`/article/${id}`}>Read more...</Link></ div>
             </footer>
         </div >
     </>
     )
 }
 
-export default ContentCard
+export default ArticleCard

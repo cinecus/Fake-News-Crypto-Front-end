@@ -7,9 +7,7 @@ const CoinPrice = () => {
     const { coin_price, fetchCoinPrice } = useGlobalContext()
     useEffect(() => {
         setLoading(true)
-        fetchCoinPrice()
-        setLoading(false)
-    }, [coin_price])
+    }, [])
     if (loading) {
         return <Loading />
     }

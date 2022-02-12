@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { useGlobalContext } from '../context'
+import { useGlobalContext } from '../../context'
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaBars, FaInstagram, FaTwitter, FaDiscord, FaSearch, FaLink } from 'react-icons/fa'
-import Loading from '../components/Loading';
+import Loading from '../../components/Loading';
 
 const NewsPage = () => {
     const { news_id } = useParams()

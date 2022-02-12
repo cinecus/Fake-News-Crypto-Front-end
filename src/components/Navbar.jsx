@@ -24,11 +24,11 @@ const Navbar = () => {
     }, [size])
     return (
         <div>
-            <nav className="navbar is-spaced is-dark is-fixed-top py-2" role="navigation" aria-label="main navigation" navbar-height="3.25rem">
+            <nav className="navbar is-spaced is-success is-fixed-top py-2 " role="navigation" aria-label="main navigation" navbar-height="3.25rem" >
                 <div className="navbar-brand">
                     <Link to='/' className="navbar-item mx-3" style={{ textDecoration: "none" }}>
-                        <h3 className='is-size-5 mx-3' >
-                            Fake News Crypto
+                        <h3 className='is-size-5 mx-3 has-text-black-ter' >
+                            <strong>Fake News Crypto</strong>
                         </h3>
                     </Link>
                     <button className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => toggleShow()}>
@@ -38,23 +38,23 @@ const Navbar = () => {
                     </button>
                 </div>
                 {isShow && (<div className='sidebar-wraper'>
-                    <div className="navbar-brand">
+                    <div className="navbar-brand ">
                         <Link to='/news' className="navbar-item mx-3" style={{ textDecoration: "none" }}>
-                            <h3 className='is-size-5 mx-3' >
+                            <h3 className='is-size-5 mx-3 has-text-black-ter' >
                                 ข่าวคริปโต
                             </h3>
                         </Link>
                     </div>
                     <div className="navbar-brand">
-                        <Link to='/content' className="navbar-item mx-3" style={{ textDecoration: "none" }}>
-                            <h3 className='is-size-5 mx-3' >
+                        <Link to='/article' className="navbar-item mx-3" style={{ textDecoration: "none" }}>
+                            <h3 className='is-size-5 mx-3 has-text-black-ter' >
                                 บทความ
                             </h3>
                         </Link>
                     </div>
                     <div className="navbar-brand">
                         <Link to='/coinprice' className="navbar-item mx-3" style={{ textDecoration: "none" }}>
-                            <h3 className='is-size-5 mx-3' >
+                            <h3 className='is-size-5 mx-3 has-text-black-ter' >
                                 ราคาเหรียญประจำวัน
                             </h3>
                         </Link>
@@ -64,17 +64,17 @@ const Navbar = () => {
                 <div className="navbar-menu">
                     <div className="navbar-start">
                         <Link to='news' className="navbar-item " style={{ textDecoration: "none" }} >
-                            <h3 className='is-size-5 mx-3' >
+                            <h3 className='is-size-5 mx-3 has-text-black-ter' >
                                 ข่าวคริปโต
                             </h3>
                         </Link>
-                        <Link to='/content' className="navbar-item" style={{ textDecoration: "none" }}>
-                            <h3 className='is-size-5 mx-3' >
+                        <Link to='/article' className="navbar-item" style={{ textDecoration: "none" }}>
+                            <h3 className='is-size-5 mx-3 has-text-black-ter' >
                                 บทความ
                             </h3>
                         </Link>
                         <Link to='/coinprice' className="navbar-item" style={{ textDecoration: "none" }}>
-                            <h3 className='is-size-5 mx-3' >
+                            <h3 className='is-size-5 mx-3 has-text-black-ter' >
                                 ราคาเหรียญประจำวัน
                             </h3>
                         </Link>
@@ -103,18 +103,18 @@ const Navbar = () => {
 
                     <div className="navbar-end">
                         <div className="navbar-item">
-                            <a href="https://www.facebook.com" target="_blank" className='has-text-light' >
+                            <a href="https://www.facebook.com" target="_blank" className='has-text-black-ter' >
                                 <FaFacebook size={36} />
                             </a>
                         </div>
                         <div className="navbar-item">
-                            <a href="https://www.instagram.com/" target="_blank" className='has-text-light'><FaInstagram size={36} /></a>
+                            <a href="https://www.instagram.com/" target="_blank" className='has-text-black-ter'><FaInstagram size={36} /></a>
                         </div>
                         <div className="navbar-item">
-                            <a href="https://www.twitter.com" target="_blank" className='has-text-light'><FaTwitter size={36} /></a>
+                            <a href="https://www.twitter.com" target="_blank" className='has-text-black-ter'><FaTwitter size={36} /></a>
                         </div>
                         <div className="navbar-item">
-                            <a href="https://www.discord.com" target="_blank" className='has-text-light'><FaDiscord size={36} /></a>
+                            <a href="https://www.discord.com" target="_blank" className='has-text-black-ter'><FaDiscord size={36} /></a>
                         </div>
                         {/* <div className="buttons">
                                 <a className="button is-primary">

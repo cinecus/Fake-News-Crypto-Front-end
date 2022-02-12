@@ -14,7 +14,7 @@ const Hero = () => {
                             <section>ไปพร้อมๆ กับ Fake news Crypto ได้ที่นี่</section>
                         </p>
                     </div>
-                    <div className="column has-text-grey">
+                    <div className="column has-text-black">
                         <FaBitcoin size={300} />
                     </div>
                     {/* <div className="column mr-6">

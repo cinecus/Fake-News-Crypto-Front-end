@@ -1,14 +1,14 @@
 export const data_news = [
     {
         id: 1,
-        title: "ด่วน!! BitKub เข้า Exchange นอกชื่อดังถึง 3 Exchange หรือนี่คือจุดเริ่มต้น?",
+        title: "News 1",
         category: "bitcoin",
         date: "2021-12-25",
         news_image: "http://via.placeholder.com/500x300",
         creater: "Cici",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Exchange', 'Altcoin', 'Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export const data_news = [
         creater: "Satoshi",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Exchange', 'Altcoin'],
-        bobo: ['A']
+
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ export const data_news = [
         creater: "Momo",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['NFT'],
-        bobo: ['A']
+
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ export const data_news = [
         creater: "Coco",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['DeFi'],
-        bobo: ['A']
+
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['WEB3', 'ETH'],
-        bobo: ['A']
+
     },
     {
         id: 6,
@@ -63,7 +63,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 7,
@@ -74,7 +74,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 8,
@@ -85,7 +85,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 9,
@@ -96,7 +96,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 10,
@@ -107,7 +107,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 11,
@@ -118,7 +118,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 12,
@@ -129,7 +129,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 13,
@@ -140,7 +140,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 14,
@@ -151,7 +151,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 15,
@@ -162,7 +162,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 16,
@@ -173,7 +173,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 17,
@@ -184,7 +184,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 18,
@@ -195,7 +195,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 19,
@@ -206,7 +206,7 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
     {
         id: 20,
@@ -217,6 +217,6 @@ export const data_news = [
         creater: "Cinecus",
         content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto quae nobis tenetur reprehenderit voluptates provident ipsum eaque sunt necessitatibus velit praesentium in at exercitationem mollitia fuga similique. Minus officia alias odit dolorem quod, pariatur voluptas ut debitis officiis iure modi mollitia, dolorum vel autem libero voluptatibus perspiciatis tenetur placeat nulla, deserunt minima possimus? Aliquam repudiandae suscipit quod ullam id libero nam, exercitationem culpa corrupti totam dignissimos iusto, expedita in vel labore, ipsam aut aspernatur! Labore saepe aperiam impedit expedita voluptas nisi repellendus quam? Nemo cupiditate totam vel adipisci dolorum quibusdam impedit repudiandae, quidem deleniti iusto similique dolore blanditiis molestiae!",
         tags: ['Blockchain'],
-        bobo: ['A']
+
     },
 ]
