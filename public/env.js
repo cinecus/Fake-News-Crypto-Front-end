@@ -182,7 +182,7 @@ window.env = {
   "npm_package_description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "npm_package_eslintConfig_extends_0": "react-app",
   "npm_package_eslintConfig_extends_1": "react-app/jest",
-  "npm_package_gitHead": "35ac32e545ca4bc833c0f6a5dd013f47d5283c0d",
+  "npm_package_gitHead": "c27aa20e381821b0899e1ce41eafd1a153e2a925",
   "npm_package_name": "Fake-News-Crypto",
   "npm_package_private": "true",
   "npm_package_readmeFilename": "README.md",

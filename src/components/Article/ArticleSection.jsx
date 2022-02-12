@@ -4,7 +4,7 @@ import { useGlobalContext } from '../../context'
 import ShowMoreButton from '../ShowMoreButton'
 
 const ArticleSection = () => {
-    const { article, page: { content_section_page }, showMore } = useGlobalContext()
+    const { article, page: { article_section_page }, showMore } = useGlobalContext()
     return (
         <>
             <section class="hero is-small has-background-white-ter py-5">
@@ -16,7 +16,7 @@ const ArticleSection = () => {
                         <div className='underline'></div>
                     </div>
                     {
-                        Array(content_section_page).fill(0).map((el, j) => {
+                        Array(article_section_page).fill(0).map((el, j) => {
                             return (
                                 <div div className='columns mx-6 my-auto' key={j}>
                                     {
@@ -30,7 +30,7 @@ const ArticleSection = () => {
                             )
                         })
                     }
-                    <ShowMoreButton type='content_section_page' />
+                    <ShowMoreButton type='article_section_page' />
                 </div>
             </section>
 
