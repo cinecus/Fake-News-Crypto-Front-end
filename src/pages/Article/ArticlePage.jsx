@@ -59,7 +59,7 @@ const ArticlePage = () => {
                                 <p class="title is-size-3">{article_item.title}</p>
                                 <div className='columns is-justify-content-space-between mx-auto'>
                                     <div className='subtitle is-size-5'>
-                                        By {article_item.creater}
+                                        By {article_item.creator}
                                     </div>
                                     <div className='subtitle is-size-5'>
                                         {moment(article_item.date).format('DD-MM-YY')}

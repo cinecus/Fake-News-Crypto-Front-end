@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import moment from 'moment';
-const ArticleCard = ({ _id: id, name: title, category, created_date: date, image_cover_uri: content_image, content, creater }) => {
+const ArticleCard = ({ _id: id, name: title, category, created_date: date, image_cover_uri: content_image, content, creator }) => {
     return (<>
         <div className="card  container">
             <div className='tags-container'>
@@ -24,7 +24,7 @@ const ArticleCard = ({ _id: id, name: title, category, created_date: date, image
                     </div>
                     <div className='columns is-justify-content-space-between'>
                         <div className='column pt-0'>
-                            <div className='subtitle is-size-6'>by {creater}</div>
+                            <div className='subtitle is-size-6'>by {creator}</div>
                         </div>
                     </div>
                     <div className='columns is-justify-content-space-between'>
